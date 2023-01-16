@@ -1,0 +1,370 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center ;
+    padding: 20px ;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none ;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+    color: white;
+}
+.header{
+    background: black;
+    overflow: hidden;
+}
+h1{
+    flex:1;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+.intro{
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: 200;
+}
+.home-button button{
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--colorbtn);
+  height: 50px;
+  border-radius: 30px;
+  padding-left: 25px;
+  padding-right:25px ;
+
+ 
+
+}
+
+.elementor-widget-container{
+   display: flex;
+   align-items: center;
+   height: 400px;
+   width: 100%;
+   background-color: white;
+
+}
+.item-1{
+    background-color: rgba(255, 255, 255, 0.959) ;
+    margin: 10px;
+    padding: 10px;
+    border: 2px  solid white;
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 350px;
+    height: 200px;
+    z-index: 9;
+
+}
+.item-2{
+    background-color: white ;
+    margin: 10px;
+    padding: 10px;
+    border: 2px  solid rgb(241, 230, 230);
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 350px;
+    height: 200px;
+    z-index: 9;
+}
+.item-3{  background-color: rgb(121, 208, 243) ;
+    margin: 10px;
+    padding: 10px;
+    border: 2px  solid rgb(234, 224, 224);
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 350px;
+    height: 200px;
+    z-index: 9;
+}
+ion-icon {
+    font-size: 64px;
+    color: rgb(112, 218, 218);
+    align-items: center;
+    display: flex;
+    align-items: center;
+  }
+  .container2{
+    display: flex;
+   margin: 0;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    
+  }
+  .mini1{
+    display:;
+  }
+  h4{
+    text-align: center;
+    font-weight: 200;
+    
+  }
+  .cont3{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .property1{
+    display: inline-block;
+    border: 1px solid rgb(149, 148, 148);
+    margin: 100px;
+    padding: 10px;
+    height: 400px;
+    width: 200px;
+   
+  }
+  .property2{
+    display: inline-block;
+    border: 1px solid rgb(149, 147, 147);
+    margin: 100px;
+    padding: 10px;
+    height: 400px;
+    width: 200px;
+   
+  }
+  .property3{
+    display: inline-block;
+    border: 1px solid rgb(144, 143, 143);
+    margin: 100px;
+    padding: 10px;
+    height: 400px;
+    width: 200px;
+   
+  }
+  .property4{
+    width: var(--width);
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 200px;
+    
+    
+    
+  }
+  .banner{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border: 1px solid aqua;
+    padding:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right, #034587, #f8099d);
+    border-radius: 5px;
+  }
+  .pricing{
+    text-align: center;
+    justify-content: center;
+  }
+  #checkmark-circle-outline{
+    color: rgb(50, 211, 50);
+  }
+  .property6{
+    display: inline-block;
+    border: 1px solid rgb(206, 215, 236);
+    margin: 100px;
+    padding: 10px;
+    height: 500px;
+    width: 250px;
+    text-align: center;
+    margin-right: 0;
+
+  }
+  button{
+    color: rgb(91, 171, 171);
+    content: white;
+  }
+  .property7{
+    display: inline-block;
+    border: 1px solid rgb(206, 215, 236);
+    margin: 100px;
+    padding: 10px;
+    height: 500px;
+    width: 250px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(90, 88, 88);
+
+  }
+  .property8{
+    display: inline-block;
+    border: 1px solid rgb(206, 215, 236);
+    margin: 100px;
+    padding: 10px;
+    height: 500px;
+    width: 250px;
+    text-align: center;
+    margin-left: 0;
+    background-color: white;
+    
+
+  }
+  .property8 ion-icon{
+    font-size: 30px;
+    color: rgb(112, 218, 218);
+    ;
+  }
+
+  
+  .container4{
+    width: var(--width );
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    text-align: center;
+  }
+  .tiledBackground {
+    background-image: url(C:/Users/user/Desktop/Assignment/css-challenge/images/hero.png);
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+    border: 2px solid;
+    opacity: 0.6;
+
+  }
+  .branches1{
+    background-color: #030718;
+    padding-bottom: 300px;
+}
+.branches{
+    color: white;
+    width: var(--width);
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    padding-top: 100px;
+}
+.story{
+    width: 1200px;
+    margin-right: 70px;
+}
+.map{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+
+.branches img{
+    margin-left: auto;
+    width: 500px;
+}
+.appointment{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: -15%;
+    background-color: white;
+    height: 550px;
+    border-color: rgb(204, 200, 200);
+    box-shadow: 0px 0px 10px rgb(230, 230, 230);
+}
+.appointment img{
+    width: 300px;
+}
+.appointment form{
+    padding-left: 50px;
+    line-height: 40px;
+}
+form h3{
+    text-align: center;
+    font-size: 25px;
+}
+form input, select, form button{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #E9E9ED;
+    padding-left: 10px;
+    padding-right:10px;
+}
+select{
+    width: 420px;
+}
+form button{
+    background-color: var(--blue);
+    margin-top: 30px;
+    width: 420px;
+    height: 50px;
+}
+
+.contact{
+    display: flex;
+    width: var(--width);
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contactUs{
+    font-weight: bold ;
+    font-size: 25px;
+}
+
+.contact button{
+    margin-left: auto;
+    padding-left: 60px;
+    padding-right:60px;
+    height: 60px;
+    background-color: var(--blue);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.details ion-icon{
+    display: inline-block;
+    color: var(--blue);
+    font-size: 64px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.footer p{
+    text-transform: capitalize;
+}
+.socials{
+    margin-left: auto;
+    color: var(--blue);
